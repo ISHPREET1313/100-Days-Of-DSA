@@ -53,6 +53,7 @@ int main(){
     for(i=n;i>=pos;i--)
         arr[i]=arr[i-1];
     arr[pos-1]=x;
+    printf("Array after insertion");
     for(int j=0;j<n+1;j++)
         printf("%d ",arr[j]);
     free(arr);
