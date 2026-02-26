@@ -33,7 +33,7 @@ struct node{
 typedef struct node node;
 int main(){
     node*head=NULL,*temp=NULL,*ptr=NULL;
-    int n,m;
+    int n;
     printf("Enter nummber of elements: ");
     scanf("%d",&n);
     for(int i=0;i<n;i++){
